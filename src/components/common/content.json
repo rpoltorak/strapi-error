@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_contents",
+  "info": {
+    "displayName": "Content",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "displayName": "Section",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.section"
+    }
+  }
+}

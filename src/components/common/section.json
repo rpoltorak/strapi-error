@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_common_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Section Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.section-item"
+    }
+  }
+}
